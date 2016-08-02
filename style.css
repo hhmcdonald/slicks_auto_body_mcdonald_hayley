@@ -1,0 +1,180 @@
+/*
+Theme Name: Slicks Auto Body
+Theme URI: http://hayleymacdesigns.com/slicksautobody
+Description: Slicks
+Author: Hayley McDonald
+Author URI: http://hayleymacdesigns.com
+Description: Slicks theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: slicks_auto_body
+*/
+
+@import url("stylesheet/normalize.css");
+@import url("stylesheet/skeleton.css");
+
+html, body {
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.5em;
+    background: #d8d7d7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000f3f;
+  font-weight: 700;
+}
+
+h1 {
+    font-size: 3.0rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2.0rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+a {
+  color: #3557b8;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/*--- Header --- */
+
+.topBar {
+    background: #000f3f;
+    padding: 5px 0;
+    width: 100%;
+}
+
+header {
+    margin: 20px 0;
+}
+header img {
+    padding-left: 1em;
+}
+
+/*--- Menu --- */
+
+.blank-menu-header {
+    margin-top: 30px;
+    margin-left: 2em;
+    width: 100%;
+}
+.blank-menu-header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+.blank-menu-header li {
+    display: inline;
+}
+.blank-menu-header ul li a {
+    text-decoration: none;
+    margin: 1em;
+    padding: 1em 0px 1em 1.2em;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #000f3f;
+}
+.blank-menu-header ul li a:hover {
+    color: #000f3f;
+}
+
+/*--- Banner --- */
+
+.banner {
+    margin: auto;
+    text-align: center;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/*--- Index --- */
+
+.headshot img {
+    margin-left: 3em;
+}
+.motto p {
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+.motto p:first-child {
+    margin-top: 25px;
+}
+
+/*--- Footer --- */
+
+footer {
+    background: #3557b8;
+    padding: 3em 3em 0 3em;
+}
+
+.footerLogo {
+    margin: auto;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+footer ul li {
+    color: #ffffff;
+}
+
+/*--- Contact --- */
+
+.contactInfo {
+    margin: 4em 0;
+}
+.contactInfo h2 {
+    text-align: center;
+    color: #000f3f;
+}
+.contactInfo p {
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    margin: 0;
+}
+.contactForm {
+    margin: auto;
+    text-align: center;
+    margin-top: 2em;
+}
+.contactForm h1 {
+    color: #000f3f;
+}
+
+/*--- About Us --- */
+
+.about h2 {
+    margin-top: 20px;
+}
+.about img {
+    width: 100%;
+    height: auto;
+}
+
+/*--- Pricing --- */
+
+.pricing img {
+    width: 100%;
+    height: auto;
+}
